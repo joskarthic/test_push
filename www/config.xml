@@ -6,10 +6,10 @@
         id        = "com.phonegap.hello-world"
         version   = "1.0.0">
 
-    <name>test push</name>
+    <name>Branbox push</name>
 
     <description>
-        Hello World sample application with Pushwoosh Phonegap push notifications plugin integrated
+        Hello Welcome to the app with Pushwoosh Phonegap push notifications plugin integrated
 	</description>
 
     <author href="http://pushwoosh.com" email="support@pushwoosh.com">
@@ -60,7 +60,7 @@
     <gap:plugin name="com.pushwoosh.plugins.pushwoosh" version="3.4.5" source="plugins.cordova.io" />
 
     <!-- Define app icon for each platform. -->
-    <icon src="logo.jpg" />
+    <icon src="images/icon.png" />
   <!--  <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
     <icon src="res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:density="hdpi" />
