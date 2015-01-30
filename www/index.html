@@ -24,16 +24,49 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="stylesheet" href="jquery.mobile.structure-1.0.1.css" />
+		<link rel="apple-touch-icon" href="images/launch_icon_57.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="images/launch_icon_72.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="images/launch_icon_114.png" />
+		<link rel="stylesheet" href="jquery.mobile-1.0.1.css" />
+		<link rel="stylesheet" href="custom.css" />
+		<script src="js/jquery-1.7.1.min.js"></script>
+		<script src="js/jquery.mobile-1.0.1.min.js"></script>
+        <title>Branbox</title>
     </head>
     <body>
-        <div class="app">
-            <h1>Welcome</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Welcome to push Notification</p>
-                <p class="event received">Device is Ready to Push</p>
-            </div>
-        </div>
+       
+	   <div data-role="page" id="home" data-theme="c">
+
+	<div data-role="content">
+	
+	<div id="branding">
+		<h1>Restaurant Picker </h1>
+		
+	</div>
+	
+	<div class="choice_list"> 
+	<h1> What would you'd like to eat? </h1>
+	
+	<ul data-role="listview" data-inset="true" >
+	<li><a href="choose_town.html" data-transition="slidedown"> <img src="sushis.jpg"/> <h3> Restaurant  Menu</h3></a></li>
+	<li><a href="choose_town.html"  data-transition="slidedown"> <img src="pizza.jpg"/> <h3> Latest Offer </h3></a></li>
+	<li><a href="choose_town.html"  data-transition="slidedown"> <img src="kebap.jpg"/> <h3> Online Orders</h3></a></li>
+	<li><a href="choose_town.html"  data-transition="slidedown"> <img src="burger.jpg"/> <h3>  Book A table</h3></a></li>
+	<li><a href="choose_town.html"  data-transition="slidedown"> <img src="nems.jpg"/> <h3> Contact Us </h3></a></li>
+	<li><a href="choose_town.html"  data-transition="slidedown"> <img src="tradi.jpg"/> <h3> Select Restaurant</h3></a></li>	
+	</ul>	
+	
+	</div>
+	</div>
+
+</div>
+	   
+	   
+	   
+	   
+	   
         <script type="text/javascript" src="cordova.js"></script>
 
         <script type="text/javascript" src="js/PushwooshAndroid.js"></script>
